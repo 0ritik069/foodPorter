@@ -1,0 +1,56 @@
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #572131;
+}
+:where(.css-dev-only-do-not-override-1hyej8k).ant-menu-dark:not(
+    .ant-menu-horizontal
+  )
+  .ant-menu-item-selected {
+  background-color: #572131;
+}
+:where(.css-dev-only-do-not-override-1hyej8k).ant-menu-dark:not(
+    .ant-menu-horizontal
+  )
+  .ant-menu-item:not(.ant-menu-item-selected):active {
+  background-color: #572131;
+}
+.trigger:hover {
+    color: #572131;
+}
+:where(.css-dev-only-do-not-override-1hyej8k).ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-submenu-title:active {
+  background-color: #572131;
+}
+:where(.css-dev-only-do-not-override-1hyej8k).ant-layout .ant-layout-footer {
+  padding: 15px 50px;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  background: #ffff;
+}
+
+/* Sidebar hover effect */
+.custom-sidebar-menu .ant-menu-item:hover,
+.custom-sidebar-menu .ant-menu-submenu-title:hover {
+  background-color: #ef4444 !important;
+  color: white !important;
+}
+
+.custom-sidebar-menu .ant-menu-item:hover .anticon,
+.custom-sidebar-menu .ant-menu-submenu-title:hover .anticon {
+  color: white !important;
+}
+
+/* Optional: make selected item yellow too */
+.custom-sidebar-menu .ant-menu-item-selected {
+  background-color: #ef4444 !important;
+  color: white !important;
+}
+.custom-sidebar-menu .ant-menu-item-selected .anticon {
+  color: white !important;
+}
+/* MainLayout.css */
+.ant-menu-item:hover,
+.ant-menu-submenu-title:hover {
+  background-color: #facc15 !important;
+}

@@ -1,0 +1,161 @@
+.logo {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #001529; /* Dark sidebar background */
+  cursor: pointer;
+  user-select: none;
+}
+
+.sm-logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffd333; /* bright yellow */
+  font-family: 'Roboto', sans-serif;
+  margin-right: 5px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.lg-logo {
+  font-size: 22px;
+  font-weight: 900;
+  color: #47ad24; /* fresh green */
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Menu item active style */
+.ant-layout-sider-dark .ant-menu-dark .ant-menu-item-selected {
+  background-color: #47ad24 !important; /* green highlight */
+  color: white !important;
+}
+
+/* Hover style for menu items */
+.ant-layout-sider-dark .ant-menu-dark .ant-menu-item:hover {
+  background-color: #3c9a1a; /* darker green on hover */
+  color: white !important;
+}
+
+/* Header style */
+.site-layout .ant-layout-header {
+  background: #fff; /* white */
+  padding: 0 24px;
+  box-shadow: 0 2px 8px #f0f1f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Trigger icon style */
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+  color: #47ad24;
+}
+
+.trigger:hover {
+  color: #3c9a1a;
+}
+
+/* Admin name */
+.d-flex span {
+  font-weight: 600;
+  color: #212529;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  min-width: 100px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+/* Content area */
+.site-layout .ant-layout-content {
+  background: #fff;
+  padding: 24px;
+  margin: 24px 16px;
+  min-height: 280px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.15);
+}
+
+/* Toastify overrides */
+.Toastify__toast {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Other text colors */
+.green {
+  color: #47ad24;
+}
+
+.red {
+  color: #e52e2e;
+}
+
+.desc {
+  color: #828599;
+}
+
+/* Form controls */
+.form-control {
+  border-color: #ced4da;
+  box-shadow: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/* :root {
+  --color-212529: #212529;
+  --color-ffd333: #ffd333;
+  --color-47ad24: #47ad24;
+  --color-e52e2e: #e52e2e;
+  --color-828599: #828599;
+  --color-3d464d: #ed464d;
+  --color-c3d4da: #ced4da;
+}
+
+.green {
+  color: var(--color-47ad24);
+  font-size: 14px;
+  font-family: Roboto !important;
+}
+.red {
+  color: var(--color-212529);
+  font-size: 14px;
+  font-family: Roboto !important;
+}
+.quill {
+  background-color: white;
+}
+
+.form-control {
+  box-shadow: none;
+  border-color: var(--color-c3d4da);
+}
+.title {
+  font: 28px;
+  font-family: Roboto !important;
+  color: var(--color-212529);
+}
+
+.sub-title {
+  font: 24px;
+  font-family: Roboto !important;
+  color: var(--color-212529);
+}
+.desc {
+  font: 14px;
+  font-family: Roboto !important;
+  color: var(--color-828599);
+} */
