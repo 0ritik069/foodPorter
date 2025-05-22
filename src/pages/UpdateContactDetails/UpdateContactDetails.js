@@ -25,7 +25,7 @@ const UpdateContactDetails = () => {
 
   return (
     <div className="update-contact-container">
-      <h2 className="page-title">Update Contact <span className="page-title2">Details</span> </h2>
+      <h2 className="page">Update Contact <span>Details</span> </h2>
       <form className="contact-form" onSubmit={handleSubmit}>
         <div className="form-group">
           <label>Phone Number</label>

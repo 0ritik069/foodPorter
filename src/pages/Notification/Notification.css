@@ -1,9 +1,11 @@
-.page-title {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 24px;
-  color: #ef4444;
-  /* text-align: start; */
+.page {
+  color: #002f54; 
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 30px;
+  
 }
 
 .notification-list {

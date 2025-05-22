@@ -1,0 +1,29 @@
+.restaurant-support-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.page-heading {
+  font-size: 22px;
+  font-weight: bold;
+  color: #d32f2f;
+  margin-bottom: 20px;
+}
+
+.support-form .ant-form-item-label > label {
+  font-weight: 600;
+}
+
+.submit-btn {
+  background-color: #ffcc00;
+  border-color: #ffcc00;
+  color: #000;
+}
+
+.submit-btn:hover {
+  background-color: #ffb300 !important;
+  border-color: #ffb300 !important;
+  color: #fff !important;
+}

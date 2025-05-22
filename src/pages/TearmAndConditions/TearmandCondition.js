@@ -4,7 +4,7 @@ import "./TermsAndConditions.css"
 const TermsAndConditions = () => {
   return (
     <div className="policy-page">
-      <h2 className="page-title" style={{textAlign:"left"}}>Terms & <span className="page-title2">Conditions</span> </h2>
+      <h2 className="page" style={{textAlign:"left"}}>Terms & <span>Conditions</span> </h2>
       
       <div className="policy-section">
         <h3>1. Introduction</h3>

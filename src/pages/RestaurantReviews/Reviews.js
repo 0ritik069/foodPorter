@@ -31,7 +31,7 @@ const reviewsData = [
 const Reviews = () => {
   return (
     <div className="reviews-container">
-      <Title level={3} className="page-heading">
+      <Title level={3} style={{ color: "#002f54", fontSize: 20, marginBottom: 20, fontWeight: 600, textAlign: "left", lineHeight: "30px" }} className="page">
         Customer Reviews
       </Title>
 

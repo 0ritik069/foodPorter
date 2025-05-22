@@ -82,7 +82,7 @@ const Payments = () => {
   return (
     <div className="payments-container">
       <div style={{display:"flex",justifyContent:"space-between", marginBottom:"20px"}}>
-    <h2 className="page-heading">Payments & <span>Earnings</span></h2>
+    <h2 className="page">Payments & <span>Earnings</span></h2>
     <Input style={{width:"30%"}} placeholder="Serch by OrderId.."/>
       </div>
       

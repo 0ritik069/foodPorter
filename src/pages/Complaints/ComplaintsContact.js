@@ -35,7 +35,7 @@ const data = [
 const ComplaintsContact = () => {
   return (
     <div className="complaints-page">
-      <h2 className="page-title" style={{textAlign:"left"}}>Complaints & <span className="page-title2">Contact</span> </h2>
+      <h2 className="page" style={{textAlign:"left"}}>Complaints & <span>Contact</span> </h2>
                                                             
       <div className="complaints-table">
         <div className="table-header">

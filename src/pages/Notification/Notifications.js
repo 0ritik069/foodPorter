@@ -49,7 +49,7 @@ const Notifications = () => {
   return (
     <div className="notifications-page">
       <div>
-    <h2 className="page-title" style={{textAlign:"start"}}>Notifications</h2>
+    <h2 className="page" style={{textAlign:"start"}}>Notifications</h2>
     
 
       </div>

@@ -1,28 +1,57 @@
-.card-body {
-  padding: 1.875rem;
-}
-.bg-login .food-img {
-  border-radius: 0.5rem;
-  height: 30.875rem;
-  object-fit: cover;
-  width: 100%;
+.restaurant-login-container {
+  height: 100vh;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.btn_style {
-  background-color: #572131;
-  border-color: #572131;
+.login-card {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   width: 100%;
-  color: white;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-heading {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #d32f2f;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.login-form button {
+  padding: 12px;
   font-size: 16px;
-  font-weight: 700;
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
 }
-btn:hover {
-  color: none !important;
+
+.login-form button:hover {
+  background-color: #b71c1c;
 }
-.btn_focused :focus {
-  border: 1px solid #572131;
-}
-.form-check-input:checked {
-  background-color: #572131 !important;
-  border-color: #572131 !important;
+
+.forgot-password {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
 }

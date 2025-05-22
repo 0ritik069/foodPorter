@@ -560,7 +560,7 @@ const ManageOrders = () => {
   return (
     <div className="orders-container">
       <div style={{display:"flex", justifyContent:"space-between", marginBottom:"20px"}}>
-    <h2 className="page-heading">Manage <span className="page-heading2">Orders</span> </h2>
+    <h2 className="page">Manage <span>Orders</span> </h2>
     <Input placeholder="Serch by Order Id..." style={{width:"30%"}}/>
       </div>
       

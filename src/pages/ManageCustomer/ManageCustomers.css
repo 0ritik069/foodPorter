@@ -1,12 +1,13 @@
 
 
-.page-heading {
-  font-size: 22px;
-  font-weight: bold;
-  color: #faeb16;
+.page {
+  color: #002f54; 
+  font-size: 20px;
   margin-bottom: 20px;
-  position: relative;
-  left: 2px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 30px;
+  
 }
 
 .page-heading2{

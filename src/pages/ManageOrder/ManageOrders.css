@@ -2,11 +2,14 @@
   padding: 20px;
 }
 
-.page-heading {
-  font-size: 22px;
-  font-weight: bold;
-  color: #ef4444;
+.page {
+  color: #002f54; 
+  font-size: 20px;
   margin-bottom: 20px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 30px;
+  
 }
 
 .page-heading2{

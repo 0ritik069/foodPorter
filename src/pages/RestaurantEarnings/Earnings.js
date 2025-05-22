@@ -33,7 +33,7 @@ const monthlyEarnings = [
 const Earnings = () => {
   return (
     <div className="earnings-container">
-      <Title level={3} className="page-heading">
+      <Title level={3} className="page">
         Earnings
       </Title>
 

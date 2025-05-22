@@ -33,7 +33,7 @@ const AdminAccess = () => {
 
   return (
     <div className="admin-access-container">
-      <h2 className="page-title">Manage Admin <span className="page-title2">Access</span> </h2>
+      <h2 className="page">Manage Admin <span>Access</span> </h2>
 
       <form className="admin-form" onSubmit={handleAddAdmin}>
         <h3>Add New Admin</h3>

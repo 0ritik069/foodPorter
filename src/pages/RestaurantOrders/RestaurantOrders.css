@@ -5,11 +5,14 @@
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
 }
 
-.page-heading {
-  font-size: 22px;
-  color: #002f54; /* Foodporter red */
-  font-weight: bold;
+.page {
+  color: #002f54; 
+  font-size: 20px;
   margin-bottom: 20px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 30px;
+  
 }
 
 .ant-table-thead > tr > th {

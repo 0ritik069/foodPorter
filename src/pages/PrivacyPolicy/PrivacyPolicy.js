@@ -3,7 +3,7 @@ import "./PrivacyPolicy.css"
 const PrivacyPolicy = () => {
   return (
     <div className="policy-page">
-      <h2 className="page-title">Privacy  <span className="page-title2">Policy</span></h2>
+      <h2 className="page">Privacy  <span>Policy</span></h2>
 
       <div className="policy-section">
         <h3>1. Data Collection</h3>

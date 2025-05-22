@@ -81,7 +81,7 @@ const RestaurantMenu = () => {
 
   return (
     <div className="restaurant-menu-container">
-      <h2 className="page-heading">Menu <span className="page-heading2">Management</span></h2>
+      <h2 className="page">Menu <span>Management</span></h2>
       <Table
         columns={columns}
         dataSource={menuData}

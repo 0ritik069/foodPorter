@@ -139,9 +139,10 @@ const ManageRestaurants = () => {
   return (
     <div className="manage-restaurants-container " >
       <div style={{ display:"flex", justifyContent:"space-between", marginBottom:"20px"}}>
-    <h2 className="page-heading">Manage <span className="page-heading2">Restaurants</span></h2>
+    <h2 className="page">Manage <span>Restaurants</span></h2>
     <input placeholder="Serch by Restaurants..." style={{width:"30%",}} />
       </div>
+       
       
       <Table
         columns={columns}

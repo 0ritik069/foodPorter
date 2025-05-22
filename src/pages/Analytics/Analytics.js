@@ -47,7 +47,7 @@ const Analytics = () => {
       {/* <div>
 
       </div> */}
-      <h2 className="page-title" style={{textAlign:"start"}}>Analytics  <span className="page-title2">Overview</span></h2>
+      <h2 className="page" style={{textAlign:"start"}}>Analytics  <span>Overview</span></h2>
 
       {/* Line Chart */}
       <div className="chart-container">

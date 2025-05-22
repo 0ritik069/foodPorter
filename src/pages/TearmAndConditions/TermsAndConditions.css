@@ -2,12 +2,14 @@
   padding: 24px;
 }
 
-.page-title {
-  font-size: 24px;
-  font-weight: 700;
-  color: #ef4444;
+.page {
+  color: #002f54; 
+  font-size: 20px;
   margin-bottom: 20px;
+  font-weight: 600;
   text-align: left;
+  line-height: 30px;
+  
 }
 
 .page-title2 {

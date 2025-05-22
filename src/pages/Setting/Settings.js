@@ -14,7 +14,7 @@ const Settings = () => {
 
   return (
     <div className="settings-container">
-      <h2 className="settings-title">System  <span className="settings-title2">Settings</span></h2>
+      <h2 className="settings">System  <span>Settings</span></h2>
       <div className="settings-list">
         {settingsList.map((item, idx) => (
           <Link to={item.path} className="settings-card" key={idx}>

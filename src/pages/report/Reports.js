@@ -25,7 +25,7 @@ const topRestaurants = [
 const Reports = () => {
   return (
     <div className="reports-container">
-      <h2 className="page-heading">Reports &  <span className="page-heading2">Analytics</span></h2>
+      <h2 className="page">Reports &  <span >Analytics</span></h2>
 
       <div className="charts-container">
         <Card title="Revenue Over Time" className="chart-card">
